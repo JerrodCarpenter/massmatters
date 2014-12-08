@@ -1,0 +1,9 @@
+body {
+    background-image: url('giftly.png');
+}
+
+.jumbotron {
+    background-image: url('jumbotron1.png');
+    text-align: center;
+    margin-top: -10px;
+}

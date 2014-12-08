@@ -1,0 +1,13 @@
+<h3><%= @item1 %> has the mass of <%= @mass %> <%= @item2 %>'s.</h3>
+
+<hr>
+
+<form role="form" action="/" method="post">
+  <div class="form-group">
+    <label for="item1">Get the weight of:</label>
+    <input type="text" class="form-control" id="location" placeholder="ex: Moon" name="item1">
+    <label for="item2">in units of:</label>
+    <input type="text" class="form-control" id="location" placeholder="ex: Blue Whale" name="item2">
+  </div>
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>
